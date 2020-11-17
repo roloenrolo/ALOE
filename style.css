@@ -118,9 +118,14 @@ section{
 }
 .resena-detalle a h2, .resena-detalle a p{
     color: black;
+    
 }
 .resena-detalle h2{
     margin-bottom: 0px;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
 }
 .member-container{
     position: relative;
@@ -130,15 +135,20 @@ section{
     position: absolute;
     color:white;
     bottom: 20px;
-    left: 90px;
+    left: 30px;
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
 }
 .member-detalle span{
     font-size: 14px;
 }
-member-detalle i {
+.member-detalle i {
     padding:0 5px;
 
 }
+
 .btn-primary{
 
     background-color: grey;
